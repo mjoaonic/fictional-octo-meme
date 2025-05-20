@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.barra{
+	display: inline-flex;
+	opacity: 60%;
+	background-color: #293462;
+	width: 100%;
+	height: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nave{
+	margin-left: auto;
+	padding-right: 50px;
+
+}
+.nave a{
+	text-decoration: none;
+	color: blanchedalmond;
+}
+
+.nave li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 50px;
+  	transition: font-size 0.3s ease;
+}
+
+.nave li:hover{
+	font-size: 25px;
+}
+
+
+
+.topo{
+	padding-left: 50px;
+}
+.topo .logo{
+	width: 50px;
+	height: 50px;
+}
+

@@ -8,16 +8,21 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<div class="barra">
+	
+	<div class="topo">
+	<img class="logo" src="logo.svg">
+	</div>
 
-<div class="logo">
-</div>
-
-<nav>
-	<li><a href="base.php"> MENU INICIAL </li>
+	<ul class="nave">
+	<li><a href="base.php">MENU INICIAL</li>
 	<li><a>JOGOS</li>
 	<li><a>SOBRE NÓS</li>
-</nav>
+	</ul>
 
+	
+
+</div>
 </body>
 </html>
 
