@@ -14,6 +14,7 @@
 <nav>
 	<li><a href="base.php"> MENU INICIAL </li>
 	<li><a>JOGOS</li>
+	<li><a>SOBRE NÓS</li>
 </nav>
 
 </body>
