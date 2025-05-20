@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +13,9 @@
 
 <nav>
 	<li><a href="base.php"> MENU INICIAL </li>
+	<li><a>JOGOS</li>
 </nav>
 
 </body>
 </html>
+
