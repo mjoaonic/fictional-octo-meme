@@ -12,6 +12,7 @@
 	
 	<div class="topo">
 	<img class="logo" src="assets/sojogo.svg">
+	<img class="logtex" src="assets/soletra.svg">
 	</div>
 
 	<ul class="nave">

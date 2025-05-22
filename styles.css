@@ -4,7 +4,6 @@
 }
 .barra{
 	display: inline-flex;
-	opacity: 60%;
 	background-color: #293462;
 	width: 100%;
 	height: 100px;
@@ -38,10 +37,14 @@
 
 
 .topo{
-	padding-left: 50px;
+	padding-left: 10px;
 }
 .topo .logo{
-	width: 200px;
+	width: 100px;
 	height: auto;
 }
 
+.topo .logtex {
+	width: 300px;
+	height: auto;
+}
