@@ -11,7 +11,7 @@
 <div class="barra">
 	
 	<div class="topo">
-	<img class="logo" src="sojogo.svg">
+	<img class="logo" src="assets/sojogo.svg">
 	</div>
 
 	<ul class="nave">
