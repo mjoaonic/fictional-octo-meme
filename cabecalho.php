@@ -17,7 +17,7 @@
 	<ul class="nave">
 	<li><a href="base.php">MENU INICIAL</li>
 	<li><a>JOGOS</li>
-	<li><a>SOBRE NOS</li>
+	<li><a>SOBRE NÓS</li>
 	</ul>
 
 	
