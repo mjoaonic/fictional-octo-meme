@@ -16,9 +16,9 @@
 	</div>
 
 	<ul class="nave">
-	<li><a href="base.php">MENU INICIAL</li>
-	<li><a>JOGOS</li>
-	<li><a>SOBRE NÓS</li>
+	<li><a href="base.php" class="<?php echo ($current_page == 'home') ? 'active' : ''; ?>">MENU INICIAL</a></li>
+  <li><a href="jogos.php" class="<?php echo ($current_page == 'jogos') ? 'active' : ''; ?>">JOGOS</a></li>
+  <li><a href="sobre.php" class="<?php echo ($current_page == 'sobre') ? 'active' : ''; ?>">SOBRE NÓS</a></li>
 	</ul>
 
 	

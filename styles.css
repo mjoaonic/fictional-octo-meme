@@ -1,14 +1,16 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .barra{
-	display: inline-flex;
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #293462;
 	width: 100%;
-	height: 100px;
 	align-items: center;
 	justify-content: space-between;
+	padding: 10px 20px;
 }
 
 .nave{
@@ -17,34 +19,67 @@
 
 }
 .nave a{
-	text-decoration: none;
-	color: blanchedalmond;
+text-decoration: none;
+  color: blanchedalmond;
+}
+
+.nave a.active {
+	border-bottom: 2px solid blanchedalmond;
+	opacity: 60%;
+	font-size: 18px;
+	pointer-events: none;
 }
 
 .nave li{
 	list-style-type: none;
 	float: left;
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 	margin-left: 50px;
-  	transition: font-size 0.3s ease;
+	transition: font-size 0.3s ease;
+ 
 }
 
 .nave li:hover{
-	font-size: 25px;
+	font-size: 20px;
 }
-
-
 
 .topo{
-	padding-left: 10px;
+	display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .topo .logo{
-	width: 100px;
+	width: 80px;
 	height: auto;
 }
 
 .topo .logtex {
-	width: 300px;
+	padding-top: 20px;
+	width: 200px;
 	height: auto;
 }
+/* ADAPTAR A TELEMOVEIS */
+@media (max-width: 768px) {
+	.barra {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+	}
+	
+	.nave {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+	}
+
+	.topo {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+	}
+
+	.topo .logtex {
+    width: 150px;
+	}
