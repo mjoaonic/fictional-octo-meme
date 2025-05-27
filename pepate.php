@@ -39,6 +39,12 @@
 
   <div class="result" id="result"></div>
 
+  
+
+
+
+
+
   <script>
 
      let score = 0;
