@@ -1,0 +1,38 @@
+h1{
+	text-align: center;
+	font-size: 70px;
+	margin-top: 30px;
+}
+
+#area{
+	position: relative;
+  width: 700px;
+  height: 500px;
+  background: #eee;
+  border: 2px solid #aaa;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+#user{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #1CD6CE;
+	bottom: 0;
+	left: 325px;
+}
+
+.enemy{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #D61C4E;
+}
+
+#start{
+	display: block;
+	margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+}
