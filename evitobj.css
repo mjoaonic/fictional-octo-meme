@@ -3,6 +3,12 @@ h1{
 	font-size: 70px;
 	margin-top: 30px;
 }
+#chatsolucao {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: 50px auto;
+}
 
 #area{
 	position: relative;
@@ -35,4 +41,50 @@ h1{
 	margin: 10px auto;
   padding: 10px 20px;
   font-size: 18px;
+}
+
+#restart{
+	height: 40px;
+	width: 120px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: #FEDB39;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-top: 15px;
+	position: relative;
+}
+
+#restart:hover{
+	animation-name: sobdes;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-duration: 0.3s;
+	animation-timing-function: linear;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.esconder {
+  display: none;
+}
+
+
+@keyframes sobdes {
+	from {top: 0px;}
+	to {top: 5px;}
 }
