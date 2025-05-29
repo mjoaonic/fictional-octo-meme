@@ -3,6 +3,14 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden; /* TEMPORARY */
+}
 .barra{
 	display: flex;
 	flex-wrap: wrap;
@@ -84,7 +92,7 @@ text-decoration: none;
     width: 150px;
 	}
 
-
+}
 
 
 .sobrenos{
@@ -100,9 +108,9 @@ text-decoration: none;
 }
  
 .banner{
-
 	width: 100%;
-
+	height: auto;
+	border: 2px solid black;
 }
  
 .ppt{

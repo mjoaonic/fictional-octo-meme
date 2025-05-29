@@ -53,26 +53,26 @@
     const choices = ['rock', 'paper', 'scissors'];
     const computerChoice = choices[Math.floor(Math.random() * 3)];
 
-    // Map to match ID prefixes
+
     const map = {
       rock: 'ped',
       paper: 'pap',
       scissors: 'tes'
     };
-
-    // Remove existing 'mostrar' classes
+  
     document.querySelectorAll('.useresc, .compesc, .vs').forEach(el => el.classList.remove('mostrar'));
 
-    // Add class to show selected user image
-    document.getElementById(map[userChoice] + 'user').classList.add('mostrar');
+    imgUser =  document.getElementById(map[userChoice] + 'user');
+    imgUser.classList.add('mostrar');
 
-    // Add class to show selected computer image
-    document.getElementById(map[computerChoice] + 'comp').classList.add('mostrar');
+    
+    imgComp = document.getElementById(map[computerChoice] + 'comp');
+    imgComp.classList.add('mostrar');
 
-    // Show VS icon
+  
     document.querySelector('.vs').classList.add('mostrar');
 
-    // Determine result
+   
     let resultText = '';
     if (userChoice === computerChoice) {
       resultText = 'Empate!';

@@ -1,7 +1,7 @@
 <?php
-include "cabeçalho.php"
+$current_page = 'home';
+include "cabecalho.php";
 ?>
-
 
 
 <!DOCTYPE html>
@@ -13,29 +13,15 @@ include "cabeçalho.php"
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="barra">
-	
-	<div class="topo">
-	<img class="logo" src="logo.svg">
-	</div>
-
-	<ul class="nave">
-	<li><a href="menuinicial.html">MENU INICIAL</a></li>
-	<li><a href="jogos.html">JOGOS</a></li>
-	<li><a href="sobrenos.html">SOBRE NÓS</a></li>
-	</ul>
-</div>
 	<br>
 	<br>
 	<h1 class="welcome">Seja bem-vindo ao Dr. Games, a cura ideal para o seu tédio!</h1>
 	<br>
 	<br>
 	<br>
-	<center>
 	<img src="banner.gif" class="banner">
-	</center>
 
-	 
+</body>	 
 
 
 </html>

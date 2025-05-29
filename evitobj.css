@@ -33,7 +33,18 @@ h1{
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #D61C4E;
+	background-color: none;
+	overflow: visible;
+}
+
+.virus{
+	width: 120%;
+	height: 120%;
+	object-fit: cover;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -5px;
 }
 
 #start{

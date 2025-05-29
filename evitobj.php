@@ -83,6 +83,14 @@ function apareceEnemy() {
 
   const enemy =document.createElement ('div');
   enemy.classList.add('enemy');
+
+  const virus = document.createElement('img');
+  virus.src = 'assets/virus.png';
+  virus.alt = 'Vírus';
+  virus.classList.add('virus');
+
+  enemy.appendChild(virus);
+
   area.appendChild(enemy);
 
   enemies.push({
