@@ -1,0 +1,63 @@
+h2{
+	font-family: cursive;
+	font-size: 70px;
+}
+
+button{
+	height: 80px;
+	width: 15%;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 20px;
+	font-family: cursive;
+	text-align: center;
+	border: 2px solid black;
+}
+
+button:hover{
+	opacity: 70%;
+}
+
+.bomboclat{
+	border-radius: 10px;
+	border: 2px solid black;
+	height: 80px;
+	width: 15%;
+	font-size: 40px;
+	font-family: cursive;
+	text-align: center;
+
+}
+
+#resultado{
+	text-align: center;
+	font-family: cursive;
+	font-size: 40px;
+}
+
+.facil{
+	background-color: lightgreen;
+}
+
+.medio{
+	background-color: #FEDB39;
+}
+
+.dificil{
+	background-color: #D61C4E;
+}
+
+.tentar{
+	background-color: #1CD6CE;
+}
+
+body{
+      background-image: url('numberwallpaper.png'); /* caminho da imagem */
+      background-size: cover;              /* cobre toda a tela */
+      background-position: center;         /* centraliza a imagem */
+      background-repeat: no-repeat;        /* não repete */
+      height: 100vh;                       /* ocupa altura total da janela */
+      margin: 0;
+    }
