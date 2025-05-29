@@ -87,6 +87,58 @@ text-decoration: none;
 
 
 
+.sobrenos{
+
+	text-align: center;
+
+	font-family: cursive;
+
+	font-size: 30px;
+
+	padding: 30px;
+
+}
+ 
+.banner{
+
+	width: 100%;
+
+}
+ 
+.ppt{
+
+	text-align: center;
+
+	font-family: cursive;
+
+}
+ 
+ 
+.obst{
+
+	text-align: center;
+
+	font-family: cursive;
+
+}
+ 
+ 
+.adnr{
+
+	text-align: center;
+
+	font-family: cursive;
+
+}
+ 
+a{
+
+	text-decoration: none;
+
+}
+
+
+
 /* ESTILOS PARA MENU INICIAL: */
 
 
