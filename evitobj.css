@@ -20,6 +20,20 @@ h1{
   margin: 50px auto;
 }
 
+#start {
+	background-color: #293462;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	transition: font-size 0.5s ease;
+	font-size: 30px;
+}
+
+#start:hover{
+	font-size: 31.5px;
+}
+
 #user{
 	position: absolute;
 	width: 50px;

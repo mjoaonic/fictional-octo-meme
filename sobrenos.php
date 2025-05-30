@@ -1,5 +1,6 @@
 <?php
-include "cabeçalho.php"
+$current_page='sobre';
+include "cabecalho.php"
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,18 +11,7 @@ include "cabeçalho.php"
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="barra">
-	
-	<div class="topo">
-	<img class="logo" src="logo.svg">
-	</div>
 
-	<ul class="nave">
-	<li><a href="menuinicial.html">MENU INICIAL</a></li>
-	<li><a href="jogos.html">JOGOS</a></li>
-	<li><a href="sobrenos.html">SOBRE NÓS</a></li>
-	</ul>
-</div>
 
 <br>
 <br>
