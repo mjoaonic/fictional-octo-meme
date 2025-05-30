@@ -5,7 +5,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="adnumero.css">
+  <link rel="stylesheet" type="text/css" href="jogficheiros/adnumero.css">
   <title>Adivinha o Número</title>
 </head>
 <body>
@@ -86,7 +86,7 @@
         `;
       }
 
-      ntentativas = 0; // reset após acerto
+      ntentativas = 0; 
     } else {
       let dica = tentativa > numeroGerado
         ? "Tenta um pouco mais abaixo..."

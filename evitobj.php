@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<h1>EVITA A DOENÇA!</h1>
+<h1>EVITA O VÍRUS!</h1>
 
 <button id="start">COMEÇAR!</button>
 
