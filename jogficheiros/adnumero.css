@@ -52,12 +52,3 @@ button:hover{
 .tentar{
 	background-color: #1CD6CE;
 }
-
-body{
-      background-image: url('numberwallpaper.png'); /* caminho da imagem */
-      background-size: cover;              /* cobre toda a tela */
-      background-position: center;         /* centraliza a imagem */
-      background-repeat: no-repeat;        /* não repete */
-      height: 100vh;                       /* ocupa altura total da janela */
-      margin: 0;
-    }

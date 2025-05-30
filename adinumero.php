@@ -5,7 +5,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" type="text/css" href="adinumero.css">
+  <link rel="stylesheet" type="text/css" href="adnumero.css">
   <title>Adivinha o Número</title>
 </head>
 <body>
@@ -13,9 +13,9 @@
 <br>
 <br>
 <h2>Escolhe a dificuldade:</h2>
-<button class="facil" onclick="escolher('n1')" >Fácil (1 algarismo)</button>
-<button class="medio" onclick="escolher('n2')" >Médio (2 algarismos)</button>
-<button class="dificil" onclick="escolher('n3')" >Difícil (3 algarismos)</button>
+<button class="facil" onclick="escolher('n1')">Fácil (1 algarismo)</button>
+<button class="medio" onclick="escolher('n2')">Médio (2 algarismos)</button>
+<button class="dificil" onclick="escolher('n3')">Difícil (3 algarismos)</button>
 <br>
 <br>
 <h2>Faz a tua tentativa:</h2>

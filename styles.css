@@ -67,7 +67,7 @@ text-decoration: none;
 	width: 200px;
 	height: auto;
 }
-/* ADAPTAR A TELEMOVEIS */
+
 @media (max-width: 768px) {
 	.barra {
     flex-direction: column;
