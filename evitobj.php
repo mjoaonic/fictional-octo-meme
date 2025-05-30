@@ -11,7 +11,7 @@
 
 </head>
 <body>
-<h1>EVITA O OBJETO!</h1>
+<h1>EVITA A DOENÇA!</h1>
 
 <button id="start">COMEÇAR!</button>
 
@@ -22,7 +22,9 @@
 </div>
 
 <div id="area">
-	<div id="user"></div>
+	<div id="user">
+   <img class="virus" src="assets/doutor.png"> 
+  </div>
 </div>
 </div>
 
@@ -83,6 +85,14 @@ function apareceEnemy() {
 
   const enemy =document.createElement ('div');
   enemy.classList.add('enemy');
+
+  const virus = document.createElement('img');
+  virus.src = 'assets/virus.png';
+  virus.alt = 'Vírus';
+  virus.classList.add('virus');
+
+  enemy.appendChild(virus);
+
   area.appendChild(enemy);
 
   enemies.push({
@@ -107,7 +117,7 @@ function updateEnemies(argument) {
       ) {
       fim = new Date();
       const total = (fim - inicio) / 1000;
-      temporizador.textContent  = "Perdeste! Mas duraste " + total.toFixed(2) + " segundos.";
+      temporizador.textContent  = "Ficaste saudável durante " + total.toFixed(2) + " segundos.";
       ggManinho.classList.remove('esconder');
       ggManinho.style.display = 'flex';
       comecou = false;

@@ -20,6 +20,20 @@ h1{
   margin: 50px auto;
 }
 
+#start {
+	background-color: #293462;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	transition: font-size 0.5s ease;
+	font-size: 30px;
+}
+
+#start:hover{
+	font-size: 31.5px;
+}
+
 #user{
 	position: absolute;
 	width: 50px;
@@ -33,7 +47,18 @@ h1{
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: #D61C4E;
+	background-color: none;
+	overflow: visible;
+}
+
+.virus{
+	width: 120%;
+	height: 120%;
+	object-fit: cover;
+	display: block;
+	position: absolute;
+	top: -5px;
+	left: -5px;
 }
 
 #start{
