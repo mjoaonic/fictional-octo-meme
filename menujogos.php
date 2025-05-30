@@ -10,17 +10,31 @@ include "cabecalho.php"
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<center>
+	<h1 class="titulojogos">Oferta de Jogos</h1>
+	<div class="ppt">
+
+		<a href="pepate.php">
+		<h1>Pedra, Papel, Tesoura!</h1>
+		</a>
+	</div>
+
+	<div class="obst">
+		<a href="evitobj.php"><h1>Foge do obstáculo!</h1></a>
 	
-	<div>
-		<a href="pepate.php"><h1 class="ppt">Pedra, Papel, Tesoura!</h1></a>
 	</div>
 
-	<div>
-		<a href=""><h1 class="obst">Foge do obstáculo!</h1></a>
+	<div class="adnr">
+		<a href="adinumero.php"><h1>Adivinha o Número!</h1></a>
+		
 	</div>
 
-	<div>
-		<a href="adinumero.php"><h1 class="adnr">Adivinha o Número!</h1></a>
+	<div class="">
 	</div>
+</center>
+	<?php
+	include "footer.php"
+	?>
 </body>
+
 </html>

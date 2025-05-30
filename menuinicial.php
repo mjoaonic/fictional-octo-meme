@@ -1,9 +1,6 @@
 <?php
-$current_page = 'home';
-include "cabecalho.php";
+include "cabecalho.php"
 ?>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,15 +10,32 @@ include "cabecalho.php";
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<br>
-	<br>
-	<h1 class="welcome">Seja bem-vindo ao Dr. Games, a cura ideal para o seu tédio!</h1>
-	<br>
-	<br>
-	<br>
+	<div class="welcome">
+	<center>
+	<h1>Sê bem-vindo/a ao Dr. Games, a cura ideal para o teu tédio!</h1>
+	</center>
+	</div>
+	<center>
+	<div class="intro">
+	<p>
+		Com que então, também foste infetado/a pelo vírus do tédio? 
+	</p>
+	<p>
+		Pois bem, não te preocupes! O "Dr. Games" está aqui, e traz consigo o remédio para a tua maleita!
+	</p>
+	<p>
+		Clica no texto "JOGOS" do cabeçalho e dá uma olhada à nossa oferta de tratamentos para curar o teu tédio!
+	</p>
+	</div>
+</center>
+
+	<center>
 	<img src="assets/banner.gif" class="banner">
-
-</body>	 
-
+	</center>	
+		<p class="melhoras">As melhoras!</p>
+	<?php
+	include "footer.php"
+	?>
+</body>
 
 </html>

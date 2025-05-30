@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>cabeçalho</title>
+	<title>Dr. Games</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image" href="assets/sojogo.svg">
 </head>
 <body>
 <div class="barra">

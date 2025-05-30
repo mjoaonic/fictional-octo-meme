@@ -8,13 +8,14 @@
   box-sizing: border-box;
 }
 
+
 html, body {
   overflow-x: hidden; /* TEMPORARY */
 }
 .barra{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #293462;
+	background-color: #556fdb;
 	width: 100%;
 	align-items: center;
 	justify-content: space-between;
@@ -94,65 +95,218 @@ text-decoration: none;
 
 }
 
-
-.sobrenos{
-	text-align: center;
-	font-family: cursive;
-	font-size: 30px;
-	padding: 30px;
-}
- 
-.banner{
-	width: 100%;
-	height: auto;
-	border: 2px solid black;
-}
- 
-.ppt{
-	text-align: center;
-	font-family: cursive;
-}
- 
- 
-.obst{
-	text-align: center;
-	font-family: cursive;
-}
- 
- 
-.adnr{
-	text-align: center;
-	font-family: cursive;
-}
-
-.jtb{
-	text-align: right;
-	padding-right: 110px;
-	padding-top: 40px;
-}
-
-.mjn{
-	text-align: left;
-	padding-left: 110px;
-	padding-top: 40px;
-}
+/* ------------------------------------------------------
+o que está acima desta linha é a estilização do cabecalho. 
+o que está abaixo já é referente à estilização dos 
+menus (inicial, jogos e sobrenos) 
+---------------------------------------------------------
+*/
 
 a{
 	text-decoration: none;
-	color: black;
+}
+
+/* faz parte do menu inicial------------------------------*/
+.banner{
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	border: 2px solid black;
+
 }
 
 .welcome{
 	text-align: center;
+	color: white;
+	font-size: 55px;
+	background-color: #293462;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	width: 100%;
 }
 
-.infojt{
-	text-align: right;
-	padding-right: 110px;
+.welcome h1{
+	font-size: 60px;
+	font-style: bold;
 }
 
-.infomjn{
-	text-align: left;
-	padding-left: 110px;
+.intro {
+	text-align: center;
+	color: #293462;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
 }
+
+.intro p{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+.melhoras{
+	text-align: center;
+	color: #D61C4E;
+	font-size: 80px;
+	margin-top: 40px;
+}
+
+
+/* faz parte do menujogos.php -----------------------------*/ 
+
+
+
+.titulojogos{
+	font-size: 60px;
+	font-style: bold;
+	color: #293462;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+.ppt{
+	text-align: center;
+	width: 100%;
+	border: 5px solid #293462;
+	height: 400px;
+	color: white;
+	background-image: url('assets/pepatefundo.jpg');
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 50px;
+}
+
+.ppt a{
+	color: #293462;
+	font-style: bold;
+	font-size: 35px;
+}
+
+
+.obst{
+	text-align: center;
+	width: 100%;
+	border: 5px solid #293462;
+	height: 400px;
+	color: black;
+	background-image: url('assets/escapar.jpg');
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 50px;
+}
+
+.obst a{
+	color: #293462;
+	font-style: bold;
+	font-size: 35px;
+}
+
+.adnr{
+	text-align: center;
+	width: 100%;
+	border: 5px solid #293462;
+	height: 400px;	
+	background-image: url('assets/adinumero.jpg');
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 50px;
+}
+
+
+.adnr a{
+	color: #293462;
+	font-style: bold;
+	font-size: 35px;
+}
+
+/* faz parte do sobrenos ------------------------------------*/
+.sobrenos{
+	text-align: center;
+	font-size: 30px;
+	color: #293462;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sobrenos h1{
+	font-style: bold;
+	font-size: 60px;
+	color: #293462;
+}
+
+.sobrenos p{
+	margin-top: 50px;
+}
+
+
+
+
+.autores{
+	background-color: #293462;
+	padding-top: 100 px;
+	color: white;
+}
+
+
+
+iframe{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.local{
+	font-style: bold;
+	font-size: 60px;
+	margin-top: 50px;
+	color: #293462;
+}
+/* footer -------------------------------------------------------*/
+
+.footer{
+	background-color: #556fdb;
+	width: 100%;
+	align-items: center;
+	height: 100px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer p{
+	color: blanchedalmond;
+	font-size: 30px;
+}
+
+
+.footer a{
+	color: blanchedalmond;
+}
+
+
+.insta:hover{
+	color: #293462;
+}
+
+.footer img{
+	width: 70px;
+	height: 70px;
+	margin-left: 20px;
+
+}
+
 
