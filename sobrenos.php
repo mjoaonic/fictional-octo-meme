@@ -1,6 +1,4 @@
-<?php
-include "cabeçalho.php"
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,9 +15,9 @@ include "cabeçalho.php"
 	</div>
 
 	<ul class="nave">
-	<li><a href="menuinicial.html">MENU INICIAL</a></li>
-	<li><a href="jogos.html">JOGOS</a></li>
-	<li><a href="sobrenos.html">SOBRE NÓS</a></li>
+	<li><a href="menuinicial.php">MENU INICIAL</a></li>
+	<li><a href="jogos.php">JOGOS</a></li>
+	<li><a href="sobrenos.php">SOBRE NÓS</a></li>
 	</ul>
 </div>
 
@@ -42,6 +40,8 @@ include "cabeçalho.php"
 <br>
 <br>
 <h2>Os autores...</h2>
+
+<h3 class="jtb">João Tomás Basto</h3> <h3 class="mjn">Maria João Nicolau</h3>
 
 
 
