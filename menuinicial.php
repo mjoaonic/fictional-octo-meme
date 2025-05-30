@@ -19,7 +19,7 @@ include "cabecalho.php";
 	<br>
 	<br>
 	<br>
-	<img src="banner.gif" class="banner">
+	<img src="assets/banner.gif" class="banner">
 
 </body>	 
 
