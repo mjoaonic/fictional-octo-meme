@@ -1,5 +1,6 @@
 <?php
-include "cabecalho.php"
+$current_page = 'jogos';
+include "cabecalho.php";
 ?>
 <!DOCTYPE html>
 <html>
