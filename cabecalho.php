@@ -21,10 +21,8 @@
   <li><a href="menujogos.php" class="<?php echo ($current_page == 'jogos') ? 'active' : ''; ?>">JOGOS</a></li>
   <li><a href="sobrenos.php" class="<?php echo ($current_page == 'sobre') ? 'active' : ''; ?>">SOBRE NÓS</a></li>
 	</ul>
-
 	
-
-</div>
+	</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
