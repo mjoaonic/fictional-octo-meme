@@ -1,0 +1,125 @@
+body {
+  background: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-size: 50px;
+}
+
+
+.conteudo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  perspective: 600px;
+  cursor: pointer;
+}
+
+.rotatorio {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card.flipped .rotatorio {
+  transform: rotateY(180deg);
+}
+
+.frente,
+.verso {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+}
+
+.frente {
+  background-image: url("assets/backcarta.svg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  width: 100%;
+  height: 100%;
+}
+.verso {
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+
+.verso img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000099;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.overlay.mostrar {
+  display: flex;
+}
+
+.box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  max-width: 300px;
+}
+
+.box button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+  background-color: #388E3C;
+}

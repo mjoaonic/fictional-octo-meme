@@ -18,20 +18,20 @@ include "cabecalho.php";
 	</div>
 	<center>
 	<div class="intro">
-	<p>
+	<p data-aos="fade-up" data-aos-duration="1000">
 		Com que então, também foste infetado/a pelo vírus do tédio? 
 	</p>
-	<p>
+	<p data-aos="fade-up" data-aos-duration="1000">
 		Pois bem, não te preocupes! O "Dr. Games" está aqui, e traz consigo o remédio para a tua maleita!
 	</p>
-	<p>
+	<p data-aos="fade-up" data-aos-duration="1000">
 		Clica no texto "JOGOS" do cabeçalho e dá uma olhada à nossa oferta de tratamentos para curar o teu tédio!
 	</p>
 	</div>
 </center>
 
 	<center>
-	<img src="assets/banner.gif" class="banner">
+	<img src="assets/banner.gif" class="banner" data-aos="flip-left" data-aos-duration="2000">
 	</center>	
 		<p class="melhoras">As melhoras!</p>
 	<?php
