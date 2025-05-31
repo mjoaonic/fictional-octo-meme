@@ -157,8 +157,6 @@ a{
 
 /* faz parte do menujogos.php -----------------------------*/ 
 
-
-
 .titulojogos{
 	font-size: 60px;
 	font-style: bold;
@@ -166,20 +164,24 @@ a{
 	margin-top: 50px;
 }
 
-
-
-
-
-
+button{
+	height: 150px;
+	width: 600px;
+	font-size: 40px;
+	font-weight: bold;
+	border: 3px solid #293462;
+	border-radius: 10px;
+}
 
 
 .ppt{
 	text-align: center;
 	width: 100%;
-	border: 5px solid #293462;
+	border-top: 5px solid #293462;
+	border-bottom: 5px solid #293462;
 	height: 400px;
-	color: white;
-	background-image: url('assets/pepatefundo.jpg');
+	color: #293462;
+	background-image: url('assets/');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
@@ -188,20 +190,17 @@ a{
 	margin-top: 50px;
 }
 
-.ppt a{
-	color: #293462;
-	font-style: bold;
-	font-size: 35px;
-}
+
 
 
 .obst{
 	text-align: center;
 	width: 100%;
-	border: 5px solid #293462;
+	border-top: 5px solid #293462;
+	border-bottom: 5px solid #293462;
 	height: 400px;
 	color: black;
-	background-image: url('assets/escapar.jpg');
+	background-image: url('assets/');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
@@ -210,18 +209,15 @@ a{
 	margin-top: 50px;
 }
 
-.obst a{
-	color: #293462;
-	font-style: bold;
-	font-size: 35px;
-}
+
 
 .adnr{
 	text-align: center;
 	width: 100%;
-	border: 5px solid #293462;
+	border-top: 5px solid #293462;
+	border-bottom: 5px solid #293462;
 	height: 400px;	
-	background-image: url('assets/adinumero.jpg');
+	background-image: url('assets/');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
@@ -231,11 +227,7 @@ a{
 }
 
 
-.adnr a{
-	color: #293462;
-	font-style: bold;
-	font-size: 35px;
-}
+
 
 /* faz parte do sobrenos ------------------------------------*/
 .sobrenos{

@@ -13,20 +13,33 @@ include "cabecalho.php"
 <center>
 	<h1 class="titulojogos">Oferta de Jogos</h1>
 	<div class="ppt">
-
-		<a href="pepate.php">
 		<h1>Pedra, Papel, Tesoura!</h1>
+		<br>
+		<a href="pepate.php">
+		<button>
+		Jogar!
+		</button>
 		</a>
 	</div>
 
 	<div class="obst">
-		<a href="evitobj.php"><h1>Foge do obstáculo!</h1></a>
-	
+		<h1>Foge do vírus!</h1>
+		<br>
+		<a href="pepate.php">
+		<button>
+		Jogar!
+		</button>
+		</a>	
 	</div>
 
 	<div class="adnr">
-		<a href="adinumero.php"><h1>Adivinha o Número!</h1></a>
-		
+		<h1>Adivinha o Número!</h1>
+		<br>
+		<a href="pepate.php">
+		<button>
+		Jogar!
+		</button>
+		</a>
 	</div>
 
 	<div class="">
