@@ -10,7 +10,7 @@
 
 
 html, body {
-  overflow-x: hidden; /* TEMPORARY */
+  overflow-x: hidden; /* PROVISÓRIO */
 }
 .barra{
 	display: flex;
@@ -152,6 +152,7 @@ a{
 	color: #D61C4E;
 	font-size: 80px;
 	margin-top: 40px;
+	font-weight: bold;
 }
 
 
@@ -159,18 +160,31 @@ a{
 
 .titulojogos{
 	font-size: 60px;
-	font-style: bold;
+	font-weight: bold;
 	color: #293462;
 	margin-top: 50px;
 }
 
+<<<<<<< HEAD
 .jogar{
 	height: 150px;
 	width: 600px;
+=======
+button{
+	height: 75px;
+	width: 300px;
+>>>>>>> 05c603493c490a6f7566a2da56b026185cfda169
 	font-size: 40px;
 	font-weight: bold;
-	border: 3px solid #293462;
-	border-radius: 10px;
+	margin-top: 200px;
+	background-color: #293462;
+	color: white;
+	margin-bottom: 50px;
+	border: 0px;
+}
+
+button:hover{
+	opacity: 80%;
 }
 
 
@@ -181,17 +195,32 @@ a{
 	border-bottom: 5px solid #293462;
 	height: 400px;
 	color: #293462;
-	background-image: url('assets/');
+	background-image: url('assets/pepatefundojpg.jpg');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 	margin-top: 50px;
 }
+.ppt h1{
+	font-size: ;
+	margin-top: 30px;
+}
 
+.obst h1{
+	font-size: ;
+	margin-top: 30px;
+}
 
+.adnr h1{
+	font-size: ;
+	margin-top: 30px;
+}
 
+.mem h1{
+	font-size: ;
+	margin-top: 30px;
+}
 
 .obst{
 	text-align: center;
@@ -199,13 +228,12 @@ a{
 	border-top: 5px solid #293462;
 	border-bottom: 5px solid #293462;
 	height: 400px;
-	color: black;
-	background-image: url('assets/');
+	color: #293462;
+	background-image: url('assets/evitfundo.jpg');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 	margin-top: 50px;
 }
 
@@ -216,13 +244,28 @@ a{
 	width: 100%;
 	border-top: 5px solid #293462;
 	border-bottom: 5px solid #293462;
-	height: 400px;	
+	height: 400px;
+	color: #293462;	
+	background-image: url('assets/numberfundo.jpg');
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.mem{
+	text-align: center;
+	width: 100%;
+	border-top: 5px solid #293462;
+	border-bottom: 5px solid #293462;
+	height: 400px;
+	color: #293462;
 	background-image: url('assets/');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 	margin-top: 50px;
 }
 
@@ -230,6 +273,9 @@ a{
 
 
 /* faz parte do sobrenos ------------------------------------*/
+
+
+
 .sobrenos{
 	text-align: center;
 	font-size: 30px;
@@ -253,8 +299,18 @@ a{
 
 .autores{
 	background-color: #293462;
-	padding-top: 100 px;
 	color: white;
+	height: 400px;
+	width: 100%;
+	display: flex;
+}
+
+.mjn{
+	width: 50%;
+}
+
+.jtb{
+	width: 50%;
 }
 
 
@@ -264,12 +320,24 @@ iframe{
 	margin-top: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
 .local{
 	font-style: bold;
 	font-size: 60px;
 	margin-top: 50px;
 	color: #293462;
 }
+
+
 /* footer -------------------------------------------------------*/
 
 .footer{
