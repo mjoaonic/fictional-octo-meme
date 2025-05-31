@@ -6,6 +6,7 @@
 	<title>Dr. Games</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="icon" type="image" href="assets/sojogo.svg">
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="barra">
@@ -24,6 +25,12 @@
 	
 
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
 
