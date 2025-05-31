@@ -34,7 +34,7 @@ text-decoration: none;
 
 .nave a.active {
 	border-bottom: 2px solid blanchedalmond;
-	opacity: 60%;
+	opacity: 80%;
 	font-size: 18px;
 	pointer-events: none;
 }
