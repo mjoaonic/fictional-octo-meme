@@ -23,28 +23,36 @@ include "cabecalho.php";
 		</a>
 	</div>
 
-	<div class="obst">
-		<h1>Foge do vírus!</h1>
-		<br>
-		<a href="pepate.php">
-		<button>
-		Jogar!
-		</button>
-		</a>	
-	</div>
-
 	<div class="adnr">
 		<h1>Adivinha o Número!</h1>
 		<br>
-		<a href="pepate.php">
+		<a href="adinumero.php">
 		<button>
 		Jogar!
 		</button>
 		</a>
 	</div>
-
-	<div class="">
+	
+	<div class="obst">
+		<h1>Foge do vírus!</h1>
+		<br>
+		<a href="evitobj.php">
+		<button>
+		Jogar!
+		</button>
+		</a>	
 	</div>
+	
+	<div class="mem">
+		<h1>Jogo da memória!</h1>
+		<br>
+		<a href=".php">
+		<button>
+		Jogar!
+		</button>
+		</a>
+	</div>
+	
 </center>
 	<?php
 	include "footer.php"

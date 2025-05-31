@@ -24,10 +24,11 @@ include "cabecalho.php";
 </div>
 
 <div class="autores">
-
+<center>
 <h2>Os autores...</h2>
-
+</center>
 	<div class="jtb">
+	<center>
 	<h3>João Tomás Basto</h3>
 	<p>
 	Contribuição significativa na criação dos media estáticos e dinâmicos;
@@ -36,9 +37,11 @@ include "cabecalho.php";
 	<br>
 	Pequena contribuição na programação "Back-End".
 	</p>
+	</center>
 	</div>
 	
 	<div class="mjn">
+	<center>
 	<h3>Maria João Nicolau</h3>
 	<p>
 	Contribuição significativa na programação "Back-End";
@@ -47,6 +50,7 @@ include "cabecalho.php";
 	<br>
 	Pequena contribuição na criação dos media estáticos e dinâmicos.
 	</p>
+	</center>
 	</div>
 
 </div>
