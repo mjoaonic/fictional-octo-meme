@@ -29,17 +29,25 @@
 <center>
 <br>
 <br>
+
 <h2>Escolhe a dificuldade:</h2>
+<br>
+<div id="dificuldade">
 <button class="facil" onclick="escolher('n1')">Fácil (1 algarismo)</button>
 <button class="medio" onclick="escolher('n2')">Médio (2 algarismos)</button>
 <button class="dificil" onclick="escolher('n3')">Difícil (3 algarismos)</button>
+</div>
 <br>
 <br>
+
 <h2>Faz a tua tentativa:</h2>
+<br>
+<div id="tent">
+
 <input type="number" id="tentativa" class="bomboclat">
 <button class="tentar" onclick="verificar()" >Tentar!</button>
 
-</center>
+</div>
 
 <div id="resultado" ></div>
 

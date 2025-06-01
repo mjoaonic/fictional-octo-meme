@@ -28,7 +28,7 @@
 </div>
 
 
-<h1>EVITA O VÍRUS!</h1>
+<h1>FOGE DO VÍRUS!</h1>
 
 <button id="start">COMEÇAR!</button>
 
