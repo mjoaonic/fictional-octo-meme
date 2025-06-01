@@ -90,7 +90,7 @@ if (isNaN(tentativa) || tentativa < 0 || !Number.isInteger(tentativa)) {
         `;
       } else if (ntentativas > 1 && ntentativas < 6) {
         document.getElementById('resultado').innerHTML = `
-          <strong style="color:green;">🎉 Acertaste! O número era ${tentativa}.</strong><br>33
+          <strong style="color:green;">🎉 Acertaste! O número era ${tentativa}.</strong><br>
           Fizeste ${ntentativas} tentativas.<br>
           <em>Nada mau. Podias ter demorado mais...</em><br>
           Escolhe uma dificuldade para jogar outra vez.
