@@ -47,7 +47,7 @@
 <center>
 <h2>Os autores...</h2>
 </center>
-	<div class="jtb">
+	<div class="jtb" data-aos="fade-up-right">
 	<center>
 	<h3>João Tomás Basto</h3>
 	<p>
@@ -60,7 +60,7 @@
 	</center>
 	</div>
 	<center><hr></center>
-	<div class="mjn">
+	<div class="mjn" data-aos="fade-up-left">
 	<center>
 	<h3>Maria João Nicolau</h3>
 	<p>
@@ -86,5 +86,10 @@
 		</p>
 		<img src="assets/insta.png">
 	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
