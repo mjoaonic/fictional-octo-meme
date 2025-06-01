@@ -36,7 +36,7 @@
 </p>
 
 <p>
-	No entanto, o projeto extende-se além do fim académico: "Dr. Games" permitiu a esta incrível dupla de trabalho aprender novos conceitos e capacidades, e fomentou o trabalho em equipa, tendo ainda desenvolvido a capacidade de gestão de tempo e distribuição de tarefas.
+	No entanto, o projeto extende-se além do fim académico: "Dr. Games" permitiu a esta incrível dupla de trabalho aprender novos conceitos e capacidades, fomentou o trabalho em equipa, tendo ainda desenvolvido a capacidade de gestão de tempo e distribuição de tarefas.
 </p>
 </div>
 

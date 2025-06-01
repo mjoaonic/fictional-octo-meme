@@ -44,15 +44,7 @@
 	</div>
 
 	
-	<div class="obst">
-		<h1>Foge do vírus!</h1>
-		<br>
-		<a href="evitobj.php">
-		<button class="jogar">
-		Jogar!
-		</button>
-		</a>	
-	</div>
+	
 
 	<div class="adnr">
 		<h1>Adivinha o Número!</h1>
@@ -78,7 +70,6 @@
 		<h1>Jogo da memória!</h1>
 		<br>
 		<a href="memgame.php">
-		<button>
 		<button class="jogar">
 		Jogar!
 		</button>
