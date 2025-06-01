@@ -10,7 +10,6 @@ include('cabecalho.php');
 	<title>MENU INICIAL</title>
 	<link rel="icon" type="image" href="assets/sojogo.svg">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -44,10 +43,6 @@ include('cabecalho.php');
 include 'footer.php';
 ?>
 
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
 </body>
 
 </html>
