@@ -179,7 +179,8 @@ a{
 	font-style: normal;
 }
 
-button{
+
+.jogar{
 	height: 75px;
 	width: 300px;
 	font-size: 40px;
@@ -192,7 +193,7 @@ button{
 	font-style: normal;
 }
 
-button:hover{
+.jogar:hover{
 	opacity: 80%;
 }
 

@@ -1,7 +1,4 @@
-<?php
-$current_page = 'jogos';
-include "cabecalho.php";
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,27 +9,56 @@ include "cabecalho.php";
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image" href="assets/sojogo.svg">
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+<div class="barra">
+	
+	<div class="topo">
+	<img class="logo" src="assets/sojogo.svg">
+	<img class="logtex" src="assets/soletra.svg">
+	</div>
+
+	<ul class="nave">
+	<li><a href="menuinicial.php">MENU INICIAL</a></li>
+  	<li><a href="menujogos.php" class='active'>JOGOS</a></li>
+	<li><a href="sobrenos.php">SOBRE NÓS</a></li>
+	</ul>
+	
+</div>
+
+
+
 <center>
 	<h1 class="titulojogos">Oferta de Jogos</h1>
 	<div class="ppt">
 		<h1>Pedra, Papel, Tesoura!</h1>
 		<br>
 		<a href="pepate.php">
-		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>
 	</div>
 
 	
+	<div class="obst">
+		<h1>Foge do vírus!</h1>
+		<br>
+		<a href="evitobj.php">
+		<button class="jogar">
+		Jogar!
+		</button>
+		</a>	
+	</div>
 
 	<div class="adnr">
 		<h1>Adivinha o Número!</h1>
 		<br>
 		<a href="adinumero.php">
-		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>
@@ -42,7 +68,7 @@ include "cabecalho.php";
 		<h1>Foge do vírus!</h1>
 		<br>
 		<a href="evitobj.php">
-		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>	
@@ -53,15 +79,19 @@ include "cabecalho.php";
 		<br>
 		<a href="memgame.php">
 		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>
 	</div>
 	
 </center>
-	<?php
-	include "footer.php"
-	?>
+	<div class="footer">
+		<p>
+			Siga-nos na nossa página de Instagram! - <a href="https://www.instagram.com/drgamesapicdds/" class="insta" target="_blank">@drgamesapicdds</a>
+		</p>
+		<img src="assets/insta.png">
+	</div>
 </body>
 
 </html>
