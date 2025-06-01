@@ -16,6 +16,10 @@ include('cabecalho.php')
 <br>
 <br>
 
+<h1>Adivinha o número!</h1>
+
+<br>
+
 <h2>Escolhe a dificuldade:</h2>
 <br>
 <div id="dificuldade">
