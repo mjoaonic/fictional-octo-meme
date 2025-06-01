@@ -52,6 +52,7 @@
 <div id="resultado" ></div>
 
 <script>
+  
   let numeroGerado = null;
   let jogoAtivo = false;
   let ntentativas = 0;
@@ -75,12 +76,18 @@
       return;
     }
 
-    const tentativa = parseInt(document.getElementById('tentativa').value);
+    const tentativa = parseFloat(document.getElementById('tentativa').value);
 
-    if (isNaN(tentativa)) {
-      document.getElementById('resultado').textContent = "Escreve um número válido.";
-      return;
-    }
+   
+
+if (isNaN(tentativa) || tentativa < 0 || !Number.isInteger(tentativa)) {
+  document.getElementById('resultado').textContent = "Insere um número inteiro válido, igual ou maior que zero.";
+  return;
+}
+
+
+
+
 
     ntentativas++;
 
@@ -97,7 +104,7 @@
         `;
       } else if (ntentativas > 1 && ntentativas < 6) {
         document.getElementById('resultado').innerHTML = `
-          <strong style="color:green;">🎉 Acertaste! O número era ${tentativa}.</strong><br>
+          <strong style="color:green;">🎉 Acertaste! O número era ${tentativa}.</strong><br>33
           Fizeste ${ntentativas} tentativas.<br>
           <em>Nada mau. Podias ter demorado mais...</em><br>
           Escolhe uma dificuldade para jogar outra vez.
@@ -121,6 +128,8 @@
       `;
     }
   }
+
+
 </script>
 
 
