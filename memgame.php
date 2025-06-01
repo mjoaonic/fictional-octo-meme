@@ -1,30 +1,17 @@
+<?php
+include('cabecalho.php')
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jogo da Memória</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" type="text/css" href="memgame.css">
 <link rel="icon" type="image" href="assets/sojogo.svg">
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="barra">
-  
-  <div class="topo">
-  <img class="logo" src="assets/sojogo.svg">
-  <img class="logtex" src="assets/soletra.svg">
-  </div>
-
-  <ul class="nave">
-  <li><a href="menuinicial.php">MENU INICIAL</a></li>
-    <li><a href="menujogos.php">JOGOS</a></li>
-  <li><a href="sobrenos.php">SOBRE NÓS</a></li>
-  </ul>
-  
-</div>
 
 	  <h1>Jogo da Memória</h1>
 
@@ -45,6 +32,7 @@
 
   <script type="text/javascript">
   	
+
 const imagePaths = [
   'assets/icon/icon1.png',
   'assets/icon/icon2.png',
@@ -58,7 +46,7 @@ const imagePaths = [
   'assets/icon/icon10.png'
 ];
 
-let todasCartas = [...imagePaths, ...imagePaths]; 
+let todasCartas = [...imagePaths, ...imagePaths];
 let flippedCards = [];
 let matchedCards = [];
 
@@ -79,10 +67,11 @@ function baralhar(array) {
   return array;
 }
 
-function criarCarta(imageSrc) {
+
+function criarCarta(iconUsado) {
   const card = document.createElement('div');
   card.classList.add('card');
-  card.dataset.image = imageSrc;
+  card.iconUsado = iconUsado;
 
   const rotatorio = document.createElement('div');
   rotatorio.classList.add('rotatorio');
@@ -93,7 +82,7 @@ function criarCarta(imageSrc) {
   const verso = document.createElement('div');
   verso.classList.add('verso');
   const img = document.createElement('img');
-  img.src = imageSrc;
+  img.src = iconUsado;
   verso.appendChild(img);
 
   rotatorio.appendChild(frente);
@@ -106,7 +95,7 @@ function criarCarta(imageSrc) {
 
 
 function handleCardClick(card) {
-  if (flippedCards.includes(card) || matchedCards.includes(card)) return;
+  if (flippedCards.includes(card) || matchedCards.includes(card) || flippedCards.length >= 2) return;
 
   card.classList.add('flipped');
   flippedCards.push(card);
@@ -116,7 +105,7 @@ function handleCardClick(card) {
     const card1 = flippedCards[0];
     const card2 = flippedCards[1];
 
-    if (card1.dataset.image === card2.dataset.image) {
+    if (card1.iconUsado === card2.iconUsado) {
       matchedCards.push(card1, card2);
       flippedCards = [];
 
@@ -131,13 +120,13 @@ function handleCardClick(card) {
         card1.classList.remove('flipped');
         card2.classList.remove('flipped');
         flippedCards = [];
-      }, 750);
+      }, 1000);
     }
-  }
+  } 
 }
 
 
-function setupGame() {
+function comecarJogo() {
   todasCartas = baralhar(todasCartas);
   board.innerHTML = '';
   todasCartas.forEach(image => {
@@ -146,14 +135,14 @@ function setupGame() {
   });
 }
 
-setupGame();
+comecarJogo();
 
 reiniciar.addEventListener('click', () => {
   overlay.classList.remove('mostrar');
   nJogadas = 0;
   flippedCards = [];
   matchedCards = [];
-  setupGame();
+  comecarJogo();
 });
 
 

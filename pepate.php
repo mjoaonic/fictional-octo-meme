@@ -1,29 +1,14 @@
+<?php
+include('cabecalho.php')
+?>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Rock Paper Scissors</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="pepate.css">
   <link rel="icon" type="image" href="assets/sojogo.svg">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
-
-<div class="barra">
-  
-  <div class="topo">
-  <img class="logo" src="assets/sojogo.svg">
-  <img class="logtex" src="assets/soletra.svg">
-  </div>
-
-  <ul class="nave">
-  <li><a href="menuinicial.php">MENU INICIAL</a></li>
-    <li><a href="menujogos.php">JOGOS</a></li>
-  <li><a href="sobrenos.php">SOBRE NÓS</a></li>
-  </ul>
-  
-</div>
 
 
   <h1 class="titini">Pedra, Papel, Tesoura!</h1>
