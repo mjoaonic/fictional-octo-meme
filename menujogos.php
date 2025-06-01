@@ -73,7 +73,7 @@
 	<div class="mem">
 		<h1>Jogo da memória!</h1>
 		<br>
-		<a href=".php">
+		<a href="memgame.php">
 		<button>
 		Jogar!
 		</button>
