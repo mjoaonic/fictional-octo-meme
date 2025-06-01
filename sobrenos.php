@@ -40,8 +40,10 @@ include('cabecalho.php');
 	<br>
 	Contribuição na programação "Front-End";
 	<br>
-	Pequena contribuição na programação "Back-End".
+	Contribuição na programação "Back-End".
 	</p>
+	<br>
+	<b>Contacto</b>: <u>9538@e-cdds.pt</u>
 	</center>
 	</div>
 	<center><hr></center>
@@ -53,8 +55,10 @@ include('cabecalho.php');
 	<br>
 	Contribuição na programação "Front-End";
 	<br>
-	Pequena contribuição na criação dos media estáticos e dinâmicos.
+	Contribuição na criação dos media estáticos e dinâmicos.
 	</p>
+	<br>
+	<b>Contacto</b>: <u>8025@e-cdds.pt</u>
 	</center>
 	</div>
 
