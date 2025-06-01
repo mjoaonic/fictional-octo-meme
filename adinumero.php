@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" type="text/css" href="jogficheiros/adnumero.css">
+  <link rel="stylesheet" type="text/css" href="adnumero.css">
   <link rel="icon" type="image" href="assets/sojogo.svg">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <title>Adivinha o Número</title>
