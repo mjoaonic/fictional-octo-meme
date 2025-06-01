@@ -71,7 +71,7 @@ let nJogadas = 0;
 const board = document.getElementById('gameBoard');
 
 
-// baralhar the cards
+
 function baralhar(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -80,7 +80,7 @@ function baralhar(array) {
   return array;
 }
 
-// Create a single card element
+
 function criarCarta(imageSrc) {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -106,9 +106,9 @@ function criarCarta(imageSrc) {
   return card;
 }
 
-// Handle card click
+
 function handleCardClick(card) {
-  if (flippedCards.includes(card) || matchedCards.includes(card)) return;
+  if (flippedCards.includes(card) || matchedCards.includes(card) || flippedCards.length === 2) return;
 
   card.classList.add('flipped');
   flippedCards.push(card);
@@ -133,12 +133,12 @@ function handleCardClick(card) {
         card1.classList.remove('flipped');
         card2.classList.remove('flipped');
         flippedCards = [];
-      }, 750);
+      }, 1000);
     }
-  }
+  } 
 }
 
-// Setup the game
+
 function setupGame() {
   todasCartas = baralhar(todasCartas);
   board.innerHTML = '';
