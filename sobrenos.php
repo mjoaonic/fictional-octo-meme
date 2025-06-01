@@ -1,4 +1,7 @@
-
+<?php
+$current_page = "sobre";
+include('cabecalho.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,26 +13,9 @@
 	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 	<link rel="icon" type="image" href="assets/sojogo.svg">
-	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+	
 </head>
 <body>
-
-
-<div class="barra">
-	
-	<div class="topo">
-	<img class="logo" src="assets/sojogo.svg">
-	<img class="logtex" src="assets/soletra.svg">
-	</div>
-
-	<ul class="nave">
-	<li><a href="menuinicial.php">MENU INICIAL</a></li>
-  	<li><a href="menujogos.php">JOGOS</a></li>
-	<li><a href="sobrenos.php" class='active'>SOBRE NÓS</a></li>
-	</ul>
-	
-</div>
-
 
 
 <div class="sobrenos">
@@ -80,13 +66,9 @@
 	<br>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.5453863397624!2d-8.41881352374494!3d41.55743957127875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fe939d7548af%3A0xc6df060fa3067812!2sCol%C3%A9gio%20Dom%20Diogo%20de%20Sousa!5e0!3m2!1spt-PT!2spt!4v1748622617063!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </center>
-	<div class="footer">
-		<p>
-			Siga-nos na nossa página de Instagram! - <a href="https://www.instagram.com/drgamesapicdds/" class="insta" target="_blank">@drgamesapicdds</a>
-		</p>
-		<img src="assets/insta.png">
-	</div>
-
+<?php
+include 'footer.php';
+?>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
   AOS.init();

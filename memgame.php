@@ -1,30 +1,17 @@
+<?php
+include('cabecalho.php')
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Jogo da Memória</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" type="text/css" href="memgame.css">
 <link rel="icon" type="image" href="assets/sojogo.svg">
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-<div class="barra">
-  
-  <div class="topo">
-  <img class="logo" src="assets/sojogo.svg">
-  <img class="logtex" src="assets/soletra.svg">
-  </div>
-
-  <ul class="nave">
-  <li><a href="menuinicial.php">MENU INICIAL</a></li>
-    <li><a href="menujogos.php">JOGOS</a></li>
-  <li><a href="sobrenos.php">SOBRE NÓS</a></li>
-  </ul>
-  
-</div>
 
 	  <h1>Jogo da Memória</h1>
 
