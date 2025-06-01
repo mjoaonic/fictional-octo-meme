@@ -81,10 +81,10 @@ function baralhar(array) {
 }
 
 
-function criarCarta(imageSrc) {
+function criarCarta(iconUsado) {
   const card = document.createElement('div');
   card.classList.add('card');
-  card.dataset.image = imageSrc;
+  card.iconUsado = iconUsado;
 
   const rotatorio = document.createElement('div');
   rotatorio.classList.add('rotatorio');
@@ -95,7 +95,7 @@ function criarCarta(imageSrc) {
   const verso = document.createElement('div');
   verso.classList.add('verso');
   const img = document.createElement('img');
-  img.src = imageSrc;
+  img.src = iconUsado;
   verso.appendChild(img);
 
   rotatorio.appendChild(frente);
@@ -118,7 +118,7 @@ function handleCardClick(card) {
     const card1 = flippedCards[0];
     const card2 = flippedCards[1];
 
-    if (card1.dataset.image === card2.dataset.image) {
+    if (card1.iconUsado === card2.iconUsado) {
       matchedCards.push(card1, card2);
       flippedCards = [];
 
