@@ -167,10 +167,6 @@ a{
 
 
 .jogar{
-	height: 150px;
-	width: 600px;
-}
-button{
 	height: 75px;
 	width: 300px;
 	font-size: 40px;
@@ -182,7 +178,7 @@ button{
 	border: 0px;
 }
 
-button:hover{
+.jogar:hover{
 	opacity: 80%;
 }
 

@@ -64,7 +64,7 @@
 		<h1>Foge do vírus!</h1>
 		<br>
 		<a href="evitobj.php">
-		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>	
@@ -74,7 +74,7 @@
 		<h1>Jogo da memória!</h1>
 		<br>
 		<a href="memgame.php">
-		<button>
+		<button class="jogar">
 		Jogar!
 		</button>
 		</a>
