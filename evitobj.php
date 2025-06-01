@@ -15,7 +15,7 @@ include('cabecalho.php')
 
 
 
-<h1>FOGE DO VÍRUS!</h1>
+<h1>Foge do Vírus!</h1>
 
 <button id="start">COMEÇAR!</button>
 

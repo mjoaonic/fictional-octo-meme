@@ -13,7 +13,7 @@ include('cabecalho.php')
 <body>
 
 
-	  <h1>Jogo da Memória</h1>
+	  <h1>Jogo da Memória!</h1>
 
 <div class="conteudo">
   <div class="game-board" id="gameBoard"></div>

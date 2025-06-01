@@ -20,7 +20,7 @@ include('cabecalho.php');
 <div class="sobrenos">
 	<h1>Sobre nós</h1>
 <p>
-	"Dr. Games: a cura para o seu tédio!" é um projeto desenvolvido pelos alunos Maria João Nicolau e João Tomás Basto, no âmbito da disciplina de Aplicações Informáticas B. É um projeto sumativo que tem como principal finalidade demonstrar as capacidades e conhecimentos adquiridos pelos alunos ao longo do ano letivo na disciplina. 
+	"Dr. Games: a cura para o seu tédio!" é um projeto desenvolvido pelos alunos João Tomás Basto e Maria João Nicolau, no âmbito da disciplina de Aplicações Informáticas B. É um projeto sumativo que tem como principal finalidade demonstrar as capacidades e conhecimentos adquiridos pelos alunos ao longo do ano letivo na disciplina. 
 </p>
 
 <p>
