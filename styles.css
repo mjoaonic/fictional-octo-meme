@@ -129,21 +129,30 @@ a{
 
 .welcome h1{
 	font-size: 60px;
-	font-style: bold;
+	font-weight: bold;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	margin-left: 50px;
+	margin-right: 50px;
+
 }
 
 .intro {
 	text-align: center;
 	color: #293462;
-	font-size: 30px;
+	font-size: 40px;
 	justify-content: center;
 	align-items: center;
 	height: 400px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	margin-bottom: 100px;
 }
 
 .intro p{
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 
@@ -151,8 +160,11 @@ a{
 	text-align: center;
 	color: #D61C4E;
 	font-size: 80px;
-	margin-top: 40px;
+	margin-top: 50px;
 	font-weight: bold;
+	margin-bottom: 70px;
+	font-family: "Archivo", sans-serif;
+
 }
 
 
@@ -163,6 +175,8 @@ a{
 	font-weight: bold;
 	color: #293462;
 	margin-top: 50px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 button{
@@ -170,11 +184,12 @@ button{
 	width: 300px;
 	font-size: 40px;
 	font-weight: bold;
-	margin-top: 200px;
+	margin-top: 110px;
 	background-color: #293462;
 	color: white;
-	margin-bottom: 50px;
 	border: 0px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 button:hover{
@@ -197,23 +212,32 @@ button:hover{
 	margin-top: 50px;
 }
 .ppt h1{
-	font-size: ;
-	margin-top: 30px;
+	font-size: 50px;
+	margin-top: 90px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 .obst h1{
-	font-size: ;
-	margin-top: 30px;
+	font-size: 50px;
+	margin-top: 90px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 .adnr h1{
-	font-size: ;
-	margin-top: 30px;
+	font-size: 50px;
+	margin-top: 90px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	color: white;
 }
 
 .mem h1{
-	font-size: ;
-	margin-top: 30px;
+	font-size: 50px;
+	margin-top: 90px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 .obst{
@@ -254,8 +278,8 @@ button:hover{
 	border-top: 5px solid #293462;
 	border-bottom: 5px solid #293462;
 	height: 400px;
-	color: #293462;
-	background-image: url('assets/');
+	color: white;
+	background-image: url('assets/memfundojpg.jpg');
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
@@ -272,7 +296,6 @@ button:hover{
 
 .sobrenos{
 	text-align: center;
-	font-size: 30px;
 	color: #293462;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -282,30 +305,54 @@ button:hover{
 	font-style: bold;
 	font-size: 60px;
 	color: #293462;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 .sobrenos p{
-	margin-top: 50px;
+	margin-top: 70px;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	font-size: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
 
-
+hr{
+	color: white;
+	width: 95%;
+	height: 2px;
+	margin-top: 30px;
+}
 
 
 .autores{
 	background-color: #293462;
 	color: white;
-	height: 400px;
+	height: 510px;
 	width: 100%;
-	display: flex;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	margin-top: 100px;
 }
 
-.mjn{
-	width: 50%;
+.autores h2{
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 30px;
 }
 
-.jtb{
-	width: 50%;
+.autores h3{
+	margin-top: 30px;
+	font-size: 30px;
 }
+
+.autores p{
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
 
 
 
@@ -329,6 +376,8 @@ iframe{
 	font-size: 60px;
 	margin-top: 50px;
 	color: #293462;
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
 }
 
 

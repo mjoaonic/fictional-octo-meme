@@ -11,9 +11,8 @@ button{
 	font-weight: bold;
 	padding: 10px;
 	margin: 20px;
-	font-family: cursive;
 	text-align: center;
-	border: 2px solid black;
+	border: 0px;
 }
 
 button:hover{
@@ -21,14 +20,12 @@ button:hover{
 }
 
 .bomboclat{
-	border-radius: 10px;
 	border: 2px solid black;
 	height: 80px;
 	width: 15%;
 	font-size: 40px;
-	font-family: cursive;
+	font-weight: bold;
 	text-align: center;
-
 }
 
 #resultado{

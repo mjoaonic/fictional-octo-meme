@@ -30,7 +30,6 @@ include("cabecalho.php");
 
   <script type="text/javascript">
   	
-// List of SVG image paths (replace with your actual image paths)
 const imagePaths = [
   'assets/icon/icon1.png',
   'assets/icon/icon2.png',
@@ -44,7 +43,7 @@ const imagePaths = [
   'assets/icon/icon10.png'
 ];
 
-let todasCartas = [...imagePaths, ...imagePaths]; // duplicate for pairs
+let todasCartas = [...imagePaths, ...imagePaths]; 
 let flippedCards = [];
 let matchedCards = [];
 
@@ -56,7 +55,7 @@ let nJogadas = 0;
 const board = document.getElementById('gameBoard');
 
 
-// baralhar the cards
+
 function baralhar(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -65,7 +64,6 @@ function baralhar(array) {
   return array;
 }
 
-// Create a single card element
 function criarCarta(imageSrc) {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -91,7 +89,7 @@ function criarCarta(imageSrc) {
   return card;
 }
 
-// Handle card click
+
 function handleCardClick(card) {
   if (flippedCards.includes(card) || matchedCards.includes(card)) return;
 
@@ -123,7 +121,7 @@ function handleCardClick(card) {
   }
 }
 
-// Setup the game
+
 function setupGame() {
   todasCartas = baralhar(todasCartas);
   board.innerHTML = '';

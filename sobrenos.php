@@ -9,6 +9,9 @@ include "cabecalho.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SOBRE NÓS</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +20,7 @@ include "cabecalho.php";
 <p>
 	"Dr. Games: a cura para o seu tédio!" é um projeto desenvolvido pelos alunos Maria João Nicolau e João Tomás Basto, no âmbito da disciplina de Aplicações Informáticas B. É um projeto sumativo que tem como principal finalidade demonstrar as capacidades e conhecimentos adquiridos pelos alunos ao longo do ano letivo na disciplina. 
 </p>
-<br>
+
 <p>
 	No entanto, o projeto extende-se além do fim académico: "Dr. Games" permitiu a esta incrível dupla de trabalho aprender novos conceitos e capacidades, e fomentou o trabalho em equipa, tendo ainda desenvolvido a capacidade de gestão de tempo e distribuição de tarefas.
 </p>
@@ -39,7 +42,7 @@ include "cabecalho.php";
 	</p>
 	</center>
 	</div>
-	
+	<center><hr></center>
 	<div class="mjn">
 	<center>
 	<h3>Maria João Nicolau</h3>

@@ -9,6 +9,9 @@ include "cabecalho.php";
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JOGOS</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
 <center>
@@ -23,15 +26,7 @@ include "cabecalho.php";
 		</a>
 	</div>
 
-	<div class="obst">
-		<h1>Foge do vírus!</h1>
-		<br>
-		<a href="evitobj.php">
-		<button>
-		Jogar!
-		</button>
-		</a>	
-	</div>
+	
 
 	<div class="adnr">
 		<h1>Adivinha o Número!</h1>
@@ -56,7 +51,7 @@ include "cabecalho.php";
 	<div class="mem">
 		<h1>Jogo da memória!</h1>
 		<br>
-		<a href=".php">
+		<a href="memgame.php">
 		<button>
 		Jogar!
 		</button>
