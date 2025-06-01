@@ -119,7 +119,7 @@ function apareceEnemy() {
   })
 }
 
-function updateEnemies(argument) {
+function updateEnemies() {
   if(!comecou) return;
   enemies.forEach(enemy => {
     enemy.y +=8;

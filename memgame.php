@@ -45,7 +45,7 @@
 
   <script type="text/javascript">
   	
-// List of SVG image paths (replace with your actual image paths)
+
 const imagePaths = [
   'assets/icon/icon1.png',
   'assets/icon/icon2.png',
@@ -59,7 +59,7 @@ const imagePaths = [
   'assets/icon/icon10.png'
 ];
 
-let todasCartas = [...imagePaths, ...imagePaths]; // duplicate for pairs
+let todasCartas = [...imagePaths, ...imagePaths];
 let flippedCards = [];
 let matchedCards = [];
 
@@ -108,7 +108,7 @@ function criarCarta(imageSrc) {
 
 
 function handleCardClick(card) {
-  if (flippedCards.includes(card) || matchedCards.includes(card) || flippedCards.length === 2) return;
+  if (flippedCards.includes(card) || matchedCards.includes(card) || flippedCards.length >= 2) return;
 
   card.classList.add('flipped');
   flippedCards.push(card);
@@ -139,7 +139,7 @@ function handleCardClick(card) {
 }
 
 
-function setupGame() {
+function comecarJogo() {
   todasCartas = baralhar(todasCartas);
   board.innerHTML = '';
   todasCartas.forEach(image => {
@@ -148,14 +148,14 @@ function setupGame() {
   });
 }
 
-setupGame();
+comecarJogo();
 
 reiniciar.addEventListener('click', () => {
   overlay.classList.remove('mostrar');
   nJogadas = 0;
   flippedCards = [];
   matchedCards = [];
-  setupGame();
+  comecarJogo();
 });
 
 
